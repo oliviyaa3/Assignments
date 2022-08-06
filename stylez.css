@@ -1,0 +1,206 @@
+/*Styling to all elements*/
+*{
+    margin: 0px;
+}
+/*Styling of the main container of the page*/
+.main-div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient((to bottom right, rgba(128,0,0,1)), url("shutterstock_348320018/home_img.png")); 
+}
+/*Styling the main image*/
+.main-div .homeIMG{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+}
+/*Styling the login and account buttons*/
+.main-div .buttons{
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    right: 0;
+}
+.btn2{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.main-div .buttons .btn1,.btn2{
+    background-color: transparent;
+    font-weight: 10px;
+    color: white;
+    outline: none;
+    padding: 15px 18px;
+    font-size: 16px;
+    border: none;
+}
+.main-div .buttons button:hover{
+    cursor: pointer;
+    background-color: coral;
+}
+/*Styling to the edureka logo*/
+.logo{
+    position: absolute;
+    display: flex;
+    color: #EB2929;
+    border: 18px solid white;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 80px;
+    font-weight: bold;
+    width: 127px;
+    height: 127px;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    align-self: center;
+    justify-content: center;
+    margin-top: 70px;
+    
+}
+/*Styling to main header text*/
+h1{
+    position: absolute;
+    display: flex;
+    color: white;
+    font-size: 40px;
+    margin-top: 220px;
+    font-weight: 500;
+    align-self: center;
+    font: normal normal 600 36px/55px Poppins;
+}
+.input{
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 290px;
+    align-self: center;
+}
+/*Styling to input text boxes*/
+.input input{
+    padding: 16px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.input .ip2{
+    position: relative;
+    margin-left: 15px;
+    width: 360px;
+    padding-left: 35px;
+}
+/*Styling to place the search icon*/
+.searchIcon{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    z-index: 10;
+    padding-right: 165px;
+    padding-top: 15px;
+}
+/*Styling to sub heading*/
+h2{
+    margin-left: 113px;
+    font: normal normal bold 30px/30px Segoi;
+    color: #192F60;
+}
+h3{
+    margin-left: 113px;
+    color: grey;
+    font-weight: lighter;
+}
+/*Styling to next section of the page*/
+.container-2{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px 20px;
+    margin-left: 113px;
+    
+}
+/*Styling to meal type card 1*/
+.item-1{
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 340px;
+    max-height: 160px;
+    box-shadow: 0px 4px 15px #00000029;
+}
+/*Styling to meal type card 2*/
+.item-2{
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 340px;
+    max-height: 160px;
+    box-shadow: 0px 4px 15px #00000029;
+}
+/*Styling to meal type card 3*/
+.item-3{
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 340px;
+    max-height: 160px;
+    box-shadow: 0px 4px 15px #00000029;
+}
+/*Styling to meal type card 4*/
+.item-4{
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 340px;
+    max-height: 160px;
+    box-shadow: 0px 4px 15px #00000029;
+}
+/*Styling to meal type card 5*/
+.item-5{
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 340px;
+    max-height: 160px;
+    box-shadow: 0px 4px 15px #00000029;
+}
+/*Styling to meal type card 6*/
+.item-6{
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 340px;
+    max-height: 160px;
+    box-shadow: 0px 4px 15px #00000029;
+}
+/*General Styling section heading*/
+.subhead{
+    display: flex;
+    position: absolute;
+    align-self: center;
+    padding-left: 190px;
+    padding-top: 25px;
+    font: normal normal 600 16.5px/27px Poppins;
+    color: #192F60;
+}
+/*General Styling section contents*/
+.content{
+    display: flex;
+    position: absolute;
+    align-self: center;
+    padding-left: 213px;
+    padding-top: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item-1, .item-2, .item-3, .item-4, .item-5, .item-6:hover{
+    cursor: pointer;
+}
